@@ -30,3 +30,4 @@ describe('api', () => {
     expect(res.json).toHaveBeenCalledWith({ id: '1', title: 'Event One' });
   });
 });
+
